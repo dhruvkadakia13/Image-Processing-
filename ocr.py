@@ -15,7 +15,7 @@ import os
 pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract'
 
 # load the example image and convert it to grayscale
-image = cv2.imread("C:\\Users\\dhruv\\Desktop\\tesseract-python\\images\\example_03.png")
+image = cv2.imread("Enter your image path.png")
 gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
 cv2.imshow("Grayscale image", gray)
 
